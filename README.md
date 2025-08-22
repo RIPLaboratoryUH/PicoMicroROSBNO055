@@ -179,7 +179,7 @@ You’re now ready to run the micro-ROS agent and communicate with your Pico.
 2. Then run the following command to launch the micro-ROS agent on your host machine:
 
 ```bash
-sudo docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agent:jazzy udp4 --dev -p 8888
+sudo docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agent:jazzy udp4 --dev -p 8891
 ```
 
 > ⏱️ **Note:** The Pico is programmed to search for the host agent for **1 minute** after startup. You can change this duration in the source code if needed.
