@@ -100,7 +100,7 @@ Create a new directory and clone the project repository:
 ```bash
 mkdir -p ~/micro_ros_ws/src
 cd ~/micro_ros_ws/src
-git clone https://github.com/mciaravino/PicoMicroRos.git
+git clone https://github.com/RIPLaboratoryUH/PicoMicroROSBNO055.git
 ```
 
 This will create a workspace directory and download the project files you'll use to build and flash micro-ROS on the Raspberry Pi Pico.
