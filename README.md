@@ -119,7 +119,7 @@ Now navigate to your micro-ROS folder, create a build directory, and compile the
 > - `pico_micro_ros_example.c`
 > - `picow_udp_transports.h`
 >
-> For example, if you're using a **Raspberry Pi Pico 2W** instead of a **Pico W**, you need to modify line 2 of `CMakeLists.txt`.
+> For example, if you're using a **Raspberry Pi Pico 2W** instead of a **Pico W**, you need to modify line 2 of `CMakeLists.txt` to `set(PICO_BOARD pico2_w)` from `set(PICO_BOARD pico_w)`.
 > 
 > You also need to update your SSID and WiFi password in `pico_micro_ros_example.c`. This is also where you include how your sensor operates.
 > 
